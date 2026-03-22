@@ -1,4 +1,20 @@
-def display_invoice(username, amount, due_date):
-    print(f"Hello {username}")
-    print(f"Your bill of ${amount:.2f} is due:{due_date}")
-display_invoice("Jean Chrispin", 42.514, "23/03/2026")
+def add( x , y):
+    z = x + y
+    return z
+
+def substract( x , y):
+    z = x - y
+    return z
+
+def multiply( x , y):
+    z = x * y
+    return z
+
+def divide( x , y):
+    z = x / y
+    return z
+
+print(add(1,2))
+print(substract(6,2))
+print(multiply(9,2))
+print(divide(10,2))
